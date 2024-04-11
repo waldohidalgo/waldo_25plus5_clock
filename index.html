@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="./images/reloj.ico" type="image/x-icon" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Libre+Bodoni:ital,wght@0,400..700;1,400..700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Martian+Mono:wght@100..800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/styles/globals.css" />
+    <link rel="stylesheet" href="/styles/styles.css" />
+    <link rel="stylesheet" href="/styles/footer.css" />
+    <title>25 + 5 Clock</title>
+  </head>
+  <body translate="no">
+    <header>
+      <div class="container_title">
+        <h1 class="main_title"></h1>
+        <div class="separador"></div>
+      </div>
+    </header>
+    <main>
+      <div class="container_config">
+        <div class="container_break container_config_item">
+          <h2 id="break-label">Break Length</h2>
+          <p>Duration of rest time</p>
+          <div class="container_buttons">
+            <span
+              id="break-decrement"
+              class="button_arrow"
+              title="Click to decrement break length"
+              ><i class="fa-solid fa-circle-arrow-down"></i></span
+            ><span id="break-length" class="break_number"></span>
+            <span
+              id="break-increment"
+              class="button_arrow"
+              title="Click to increment break length"
+              ><i class="fa-solid fa-circle-arrow-up"></i
+            ></span>
+          </div>
+        </div>
+        <div class="container_session container_config_item">
+          <h2 id="session-label">Session Length</h2>
+          <p>Duration of work time</p>
+          <div class="container_buttons">
+            <span
+              id="session-decrement"
+              class="button_arrow"
+              title="Click to decrement session length"
+              ><i class="fa-solid fa-circle-arrow-down"></i></span
+            ><span id="session-length" class="break_number"></span>
+            <span
+              id="session-increment"
+              class="button_arrow"
+              title="Click to increment session length"
+              ><i class="fa-solid fa-circle-arrow-up"></i
+            ></span>
+          </div>
+        </div>
+      </div>
+      <div class="container_timer">
+        <h2 id="timer-label_main_title">Actual Timer Mode</h2>
+        <h3 id="timer-label">Session</h3>
+        <p id="time-left"></p>
+        <div class="container_buttons_timer">
+          <span id="start_stop"></span>
+          <button id="reset" title="Click to reset timer">RESET</button>
+        </div>
+      </div>
+    </main>
+    <footer class="footer">
+      <div class="footer_contenido">
+        <div translate="no" id="footer_tag">Developed by:</div>
+
+        <div class="logo">
+          <a
+            href="https://linktr.ee/waldohidalgo"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img src="./images/logo_waldo.png" alt="logo waldo" />
+          </a>
+        </div>
+      </div>
+    </footer>
+
+    <audio id="beep" src="./audio/clock-alarm.mp3"></audio>
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+    <script
+      src="https://kit.fontawesome.com/d1b9dc6536.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
+    <script
+      src="https://code.jquery.com/jquery-3.7.1.min.js"
+      integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo="
+      crossorigin="anonymous"
+    ></script>
+
+    <script type="module" src="./scripts/index.js"></script>
+    <script type="module" src="./scripts/efectos.js"></script>
+  </body>
+</html>
