@@ -4,6 +4,18 @@ Repositorio con el código solución al proyecto número 5 y último proyecto co
 
 Muestro mi proyecto con los **29 test** aprobados por completo.
 
+## Tabla de Contenidos
+
+- [My 25 + 5 Clock Project](#my-25--5-clock-project)
+  - [Tabla de Contenidos](#tabla-de-contenidos)
+  - [Librerias Utilizadas](#librerias-utilizadas)
+  - [Requsitos](#requsitos)
+  - [Proyecto Aprobado](#proyecto-aprobado)
+    - [Pantallas Grandes](#pantallas-grandes)
+    - [Pantallas Small](#pantallas-small)
+  - [Todos los Test Aprobados](#todos-los-test-aprobados)
+  - [Proyecto en un estado cualquiera funcional](#proyecto-en-un-estado-cualquiera-funcional)
+
 ## Librerias Utilizadas
 
 | Tecnologías Utilizadas |
@@ -25,6 +37,10 @@ Muestro mi proyecto con los **29 test** aprobados por completo.
 ### Pantallas Small
 
 ![Proyecto en pantallas small](./screenshots/proyecto_aprobado_small_devices.webp)
+
+## Todos los Test Aprobados
+
+![Test Aprobados](./screenshots/test_aprobados.webp)
 
 ## Proyecto en un estado cualquiera funcional
 
